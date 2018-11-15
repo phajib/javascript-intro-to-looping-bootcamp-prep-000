@@ -14,10 +14,10 @@ function forLoop(array){
 counts down from n to 0*/
 function whileLoop(n){
   while(n >= 0){
-    console.log(--n)
     if (n === 0){
       console.log(`done`)
     }
+    console.log(--n)
   }return n = 'done'
 }
 
