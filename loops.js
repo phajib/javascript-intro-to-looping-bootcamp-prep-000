@@ -15,9 +15,10 @@ counts down from n to 0*/
 function whileLoop(n){
   while(n > 0){
     console.log(--n)
-  }
-  //console.log("done")
-  return n = 'done'
+    if (n === 0){
+      console.log("done")
+    }
+  }return n = 'done'
 }
 
 /*doWhileLoop(array) function
